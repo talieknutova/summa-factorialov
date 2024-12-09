@@ -25,7 +25,7 @@ int main() {
         if (n > 1) {
             cout << "Сумма факториалов от 1 до " << n << ": " << sum << endl;
         } else if (n == 0) {
-            cout << "Факториал 0 равен: 1" << endl; 
+            cout << endl; 
         } else if (n == 1) {
             cout << "Факториал 1 равен: 1" << endl; 
         }
