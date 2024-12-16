@@ -29,7 +29,6 @@ string slozhenie(string chislo1, string chislo2) {
 
 // Вычисление факториала числа
 string factorial(int n) {
-    if (n == 0) return "1"; 
     if (n == 1) return "1"; 
     string resultat = "1"; 
     for (int i = 2; i <= n; i++) { 
